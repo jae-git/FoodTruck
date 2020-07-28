@@ -5,7 +5,7 @@ This is a very simple command-line program that will print out a list of food tr
 
 Java version used : openjdk version "1.8.0_252"
 
-A very small JSON library ORG.JSON was used. It is included in '/lib' folder. No additional download is required.  [For more information, please consult](lib/README.md)
+A very small JSON library ORG.JSON was used. It is included in '/lib' folder. [For more information, please the document here](lib/README.md)
 
 ## Build
 
