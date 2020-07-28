@@ -29,14 +29,11 @@ The main program "FoodTruckFinder" has two different implementations.  The first
 ```
 	DirectAPICallPresenter presenter = new DirectAPICallPresenter();
 
-	presenter.interactivePresentation();
 ```
 
 The second one executes the query for all the food trucks for the day and keeps the results in memory with an assumption that the program is to be used as a backend service. The result dataset is less than 1MB in size. Given the small size of the dataset, it can be kept in memory with ease on system resources. Since Socrata API is rate limited, keeping the query result in memory makes more sense for scalability and latency purpose. However, the cache should be refreshed on a daily base. 
 
 ```
 	CachedPresenter presenter = new CachedPresenter();
-
-	presenter.interactivePresentation();
 
 ```
