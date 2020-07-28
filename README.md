@@ -24,14 +24,12 @@ java -cp ".:./lib/json-20200518.jar:./src" FoodTruckFinder
 ![Sample run capture](img/foodtruck.jpg)
 
 ## Design considerations
-- Food Trucks are sorted alphabetically  
-- There are clear comments or self-documenting code  
-- Clear naming conventions  
-- Concise and readable code  
-- Code is broken up into multiple classes and methods based on responsibility  
-- Clean output from program  
-- Error cases addressed and properly handled  
-- Code is testable  
-- The Socrata API is properly used  
-- Business Logic is not included in the DTOs  
-- Think about a solution that can be scaled for bigger application
+
+The main program "FoodTruckFinder" has two different implementations.  The first one calls Socrata API for each pagination.  
+```
+	DirectAPICallPresenter presenter = new DirectAPICallPresenter();
+
+	presenter.interactivePresentation();
+```
+
+The second one
