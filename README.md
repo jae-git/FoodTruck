@@ -21,6 +21,6 @@ javac -cp ".:./lib/json-20200518.jar" src/*.java
 java -cp ".:./lib/json-20200518.jar:./src" FoodTruckFinder
 ```
 
-[Sample run capture](img/foodtruck.jpg)
+![Sample run capture](img/foodtruck.jpg)
 
 ## Design considerations
