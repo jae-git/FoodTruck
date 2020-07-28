@@ -5,7 +5,7 @@ This is a very simple command-line program that will print out a list of food tr
 
 Java version used : openjdk version "1.8.0_252"
 
-JSON library "org.json: was used.  The library jar file is located at "/lib/json-20200518.jar"
+JSON library "org.json: was used.  The library jar file is located at "/lib/json-20200518.jar" original download https://mvnrepository.com/artifact/org.json/json
 
 ## Build
 
