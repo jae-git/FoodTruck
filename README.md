@@ -5,11 +5,11 @@ This is a very simple command-line program that will print out a list of food tr
 
 Java version used : openjdk version "1.8.0_252"
 
-A very small JSON library ORG.JSON was used.  The library jar file is located at "/lib/json-20200518.jar" <br/>
-The original download https://mvnrepository.com/artifact/org.json/json  The github for ORG.JSON https://github.com/stleary/JSON-java
+A very small JSON library ORG.JSON was used. It is included in '/lib' folder.  
 
 ## Build
 
+First git clone the project. 
 Once git cloned, just compile with the following command
 ```
 javac -cp ".:./lib/json-20200518.jar" src/*.java
@@ -20,3 +20,5 @@ javac -cp ".:./lib/json-20200518.jar" src/*.java
 ```
 java -cp ".:./lib/json-20200518.jar:./src" FoodTruckFinder
 ```
+
+## Design considerations
