@@ -5,7 +5,7 @@ This is a very simple command-line program that will print out a list of food tr
 
 Java version used : openjdk version "1.8.0_252"
 
-A very small JSON library ORG.JSON was used. It is included in '/lib' folder. No additional download is required. For more information, please consult  https://github.com/jae-git/FoodTruck/tree/master/lib
+A very small JSON library ORG.JSON was used. It is included in '/lib' folder. No additional download is required.  [For more information, please consult](lib/README.md)
 
 ## Build
 
@@ -20,5 +20,7 @@ javac -cp ".:./lib/json-20200518.jar" src/*.java
 ```
 java -cp ".:./lib/json-20200518.jar:./src" FoodTruckFinder
 ```
+
+
 
 ## Design considerations
