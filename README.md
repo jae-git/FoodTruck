@@ -9,7 +9,7 @@ A very small JSON library ORG.JSON was used. It is included in '/lib' folder. [F
 
 ## Build
 
-First git clone the project. 
+Firstly, git clone the project. <br/>
 Once git cloned, just compile with the following command
 ```
 javac -cp ".:./lib/json-20200518.jar" src/*.java
